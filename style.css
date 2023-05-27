@@ -28,6 +28,13 @@ body{
    color: white;
    font-family: 'Pangolin', cursive;
 }
+#input-btn:hover{
+    transform: scale(1.1);
+}
+#input-btn:active{
+    transform: scale(0.5);
+}
+
 
 #tab-btn{
     margin: 3px 8px;
@@ -37,6 +44,12 @@ body{
    background-color: rgb(41, 139, 54);
    color: white;
    font-family: 'Pangolin', cursive;
+}
+#tab-btn:hover{
+    transform: scale(1.1);
+}
+#tab-btn:active{
+    transform: scale(0.5);
 }
 
 #delete-btn{
@@ -48,6 +61,12 @@ body{
    color: white;
    font-family: 'Pangolin', cursive;
 
+}
+#delete-btn:hover{
+    transform: scale(1.1);
+}
+#delete-btn:active{
+    transform: scale(0.5);
 }
 
 ul{
