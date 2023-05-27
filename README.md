@@ -7,4 +7,4 @@
 After succesfully deploying the extension.
 1) To save the manual link as users wish, you can type it in the input section and save the link by clicking on the SAVE INPUT button.
 2) Clicking on the SAVE TAB button will save the link of the current tab you're watching and extension's open.
-3) Double click to delete all the entries of the link saved in the link saver.
+3) Double click DELETE button to delete all the entries of the link saved in the link saver.
