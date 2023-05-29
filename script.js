@@ -24,26 +24,18 @@ inputBtn.addEventListener("click", function () {
   console.log(localStorage.getItem(myLinks));
 });
 
+tabBtn.addEventListener("click", function () {
+  // grabbing the url of the current tab in real browser...
+  chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
+    myLinks.push(tabs[0].url);
+    localStorage.setItem("myLinks", JSON.stringify(myLinks));
+    render(myLinks);
+  });
 
-tabBtn.addEventListener("click", function(){
-// grabbing the url of the current tab in real browser...
-chrome.tabs.query({active: true, currentWindow: true}, function(tabs){
-
-
-  
-  myLinks.push(tabs[0].url)
- localStorage.setItem("myLinks", JSON.stringify(myLinks))
- render(myLinks)
-})
-
- 
-  myLinks.push(tabs[0].url)
- localStorage.setItem("myLinks", JSON.stringify(myLinks))
- render(myLinks)
-})
-
-
-
+  myLinks.push(tabs[0].url);
+  localStorage.setItem("myLinks", JSON.stringify(myLinks));
+  render(myLinks);
+});
 
 function render(links) {
   // giving function a parameter so that the function can be reused as many times as required and possible
@@ -59,7 +51,6 @@ function render(links) {
   }
   ulEl.innerHTML = listitems;
 }
-
 
 //needs to double click to delete the entries stored in the local storage
 deleteBtn.addEventListener("dblclick", function () {
