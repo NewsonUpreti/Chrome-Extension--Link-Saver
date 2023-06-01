@@ -6,7 +6,5 @@
     "default_popup": "index.html",
     "default_icon": "icon.png"
   },
-  "permissions" : [
-    "tabs"
-]
+  "permissions": ["tabs"]
 }

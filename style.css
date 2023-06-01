@@ -1,83 +1,78 @@
-  @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
 
-
-
-body{
-    margin: 0;
-    padding: 4px;
-    min-width: 500px;
-    background-color: rgb(16, 20, 20,0.7);
-    color: azure;
-    border-radius: 30px;
+body {
+  margin: 0;
+  padding: 4px;
+  min-width: 500px;
+  background-color: rgb(16, 20, 20, 0.7);
+  color: azure;
+  border-radius: 30px;
 }
-#input-el{
-    margin-bottom: 5px;
-    width: 100%;
-    /* In order to avoid the 100% width taking more area than the web browser page afte adding the padding we need to make the box sizing to border box which counts the padding included in the 100% width of the element */
-    box-sizing: border-box;
-    border-radius: 10px;
-    padding: 5px 5px;
-    font-family: 'Pangolin', cursive;
+#input-el {
+  margin-bottom: 5px;
+  width: 100%;
+  /* In order to avoid the 100% width taking more area than the web browser page afte adding the padding we need to make the box sizing to border box which counts the padding included in the 100% width of the element */
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 5px 5px;
+  font-family: "Pangolin", cursive;
 }
-#input-btn{
-    margin: 3px 0px;
-    padding: 2px 4px;
-   border: 1px solid black;
-   border-radius: 10px;
-   background-color: rgb(38, 126, 126);
-   color: white;
-   font-family: 'Pangolin', cursive;
+#input-btn {
+  margin: 3px 0px;
+  padding: 2px 4px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(38, 126, 126);
+  color: white;
+  font-family: "Pangolin", cursive;
 }
-#input-btn:hover{
-    transform: scale(1.1);
+#input-btn:hover {
+  transform: scale(1.1);
 }
-#input-btn:active{
-    transform: scale(0.5);
+#input-btn:active {
+  transform: scale(0.5);
 }
 
-
-#tab-btn{
-    margin: 3px 8px;
-    padding: 2px 4px;
-   border: 1px solid black;
-   border-radius: 10px;
-   background-color: rgb(41, 139, 54);
-   color: white;
-   font-family: 'Pangolin', cursive;
+#tab-btn {
+  margin: 3px 8px;
+  padding: 2px 4px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(41, 139, 54);
+  color: white;
+  font-family: "Pangolin", cursive;
 }
-#tab-btn:hover{
-    transform: scale(1.1);
+#tab-btn:hover {
+  transform: scale(1.1);
 }
-#tab-btn:active{
-    transform: scale(0.5);
-}
-
-#delete-btn{
-    margin: 3px 0px;
-    padding: 2px 4px;
-   border: 1px solid black;
-   border-radius: 10px;
-   background-color: rgb(184, 53, 20);
-   color: white;
-   font-family: 'Pangolin', cursive;
-
-}
-#delete-btn:hover{
-    transform: scale(1.1);
-}
-#delete-btn:active{
-    transform: scale(0.5);
+#tab-btn:active {
+  transform: scale(0.5);
 }
 
-ul{
-/* list-style: none; */
-padding-left: 5px;
+#delete-btn {
+  margin: 3px 0px;
+  padding: 2px 4px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(184, 53, 20);
+  color: white;
+  font-family: "Pangolin", cursive;
 }
-li{
-margin-top: 2px;
+#delete-btn:hover {
+  transform: scale(1.1);
+}
+#delete-btn:active {
+  transform: scale(0.5);
+}
 
+ul {
+  /* list-style: none; */
+  padding-left: 5px;
 }
-a{
-color: rgb(31, 208, 214);
-font-weight: 1.1em;
+li {
+  margin-top: 2px;
+}
+a {
+  color: rgb(31, 208, 214);
+  font-weight: 1.1em;
 }
